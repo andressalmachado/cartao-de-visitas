@@ -1,29 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
 * {
-  font-family: 'Nunito';
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 main {
   text-align: center;
-  background-color: #beb3f1;
+  background-color: #363636;
   height: 100vh;
 }
 header {
-  background: #84ffd3;
+  background: linear-gradient(180deg, #EEB4B4 0%, #8F6464 100%);
   text-align: center;
 
   padding: 23px;
 }
-h1,
 h2 {
   font-size: 24px;
-  color: #5c5c5c;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+  color: #362525;
   font-weight: 400;
 }
 
 section figure img {
   border-radius: 50%;
-  width: 144px;
-  height: 144px;
+  width: 150px;
+  height: 150px;
 }
 
 figure {
@@ -35,15 +38,14 @@ figcaption {
   font-size: 20px;
   font-style: normal;
   line-height: 30px;
-  color: #5c5c5c;
+  color: #C18787;
 }
 
 ul {
   margin: 0 auto;
-  width: 20%;
+  width: 80%;
 }
 li {
-  background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 0px 32px 0px 0px;
   margin-top: 16px;
@@ -52,7 +54,7 @@ li {
 }
 li a {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
-  color: #5c5c5c;
+  color: #FAFAFA;
 }
