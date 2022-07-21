@@ -1,24 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chivo&family=Source+Sans+Pro:wght@300;400;600&display=swap");
 
 * {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
-
-main {
-  text-align: center;
+body {
   background-color: #363636;
   height: 100vh;
 }
+main {
+  text-align: center;
+}
 header {
-  background: linear-gradient(180deg, #EEB4B4 0%, #8F6464 100%);
+  background: linear-gradient(180deg, #eeb4b4 0%, #8f6464 100%);
   text-align: center;
 
   padding: 23px;
 }
 h2 {
-  font-size: 24px;
-  font-family: 'Chivo', sans-serif;
+  font-size: 20px;
+  font-family: "Chivo", sans-serif;
   font-weight: 400;
+  line-height: 25px;
   color: #362525;
   font-weight: 400;
 }
@@ -30,7 +32,7 @@ section figure img {
 }
 
 figure {
-  padding: 64px;
+  padding: 30px;
 }
 
 figcaption {
@@ -38,23 +40,47 @@ figcaption {
   font-size: 20px;
   font-style: normal;
   line-height: 30px;
-  color: #C18787;
+  color: #c18787;
+}
+
+p {
+  color: #fafafa;
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
 ul {
   margin: 0 auto;
-  width: 70%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
 }
 li {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 0px 32px 0px 0px;
+  display: flex;
+  align-items: center;
   margin-top: 16px;
   padding: 19px 0;
   max-width: 430px;
+}
+
+li img {
+  margin: 0 20px;
 }
 li a {
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
-  color: #FAFAFA;
+  color: #fafafa;
+  letter-spacing: 0.05em;
+}
+
+li ::before {
+  content: "|";
+  color: #966a6a;
+}
+hr {
+  border: 0.5px solid rgba(193, 135, 135, 0.7);
+}
+span {
+  color: #fafafa;
 }
