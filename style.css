@@ -36,9 +36,9 @@ figure {
 
 figcaption {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  line-height: 30px;
+  line-height: 40px;
   color: #c18787;
 }
 
@@ -51,6 +51,7 @@ p {
 ul {
   margin: 0 auto;
   width: 200px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -60,9 +61,24 @@ li {
   padding: 15px 0;
   max-width: 430px;
 }
+li ::before {
+  content: "|";
+  color: #966a6a;
+}
+
+li a:hover {
+  color: #d9988d;
+  transition: 0.5s;
+  letter-spacing: 1.5px;
+}
+
+li a:hover::before {
+  font-weight: bolder;
+  color: #c27474;
+}
 
 li img {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 li a {
   text-decoration: none;
@@ -70,9 +86,4 @@ li a {
   font-size: 20px;
   color: #fafafa;
   letter-spacing: 0.05em;
-}
-
-li ::before {
-  content: "|";
-  color: #966a6a;
 }
