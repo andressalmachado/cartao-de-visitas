@@ -9,6 +9,7 @@ body {
 }
 main {
   text-align: center;
+  height: 93vh;
 }
 header {
   background: linear-gradient(180deg, #eeb4b4 0%, #8f6464 100%);
@@ -31,27 +32,26 @@ section figure img {
 }
 
 figure {
-  padding: 30px;
+  padding: 50px;
 }
 
 figcaption {
   font-weight: 600;
-  font-size: 24px;
-  font-style: normal;
-  line-height: 40px;
+  font-size: 28px;
+  margin: 10px 0;
   color: #c18787;
 }
 
 p {
   color: #fafafa;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.05em;
 }
 
 ul {
   margin: 0 auto;
-  width: 200px;
-  padding: 10px;
+  width: 185px;
+  padding: 10px 30px;
   display: flex;
   flex-direction: column;
 }
@@ -86,4 +86,81 @@ li a {
   font-size: 20px;
   color: #fafafa;
   letter-spacing: 0.05em;
+}
+.btn-mode {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  cursor: pointer;
+  outline: none;
+  height: 70px;
+  width: 70px;
+  background: linear-gradient(
+    180deg,
+    rgba(193, 135, 135, 0.8) 0%,
+    rgba(255, 204, 204, 0.5) 100%
+  );
+  border: none;
+  border-radius: 50px;
+  padding: 0;
+}
+
+.btn-mode:hover {
+  background-color: #fff;
+}
+.mode-icon {
+  margin-top: 5px;
+}
+
+footer {
+  height: 40px;
+}
+hr {
+  border: 1px solid rgba(193, 135, 135, 0.7);
+}
+.copyright {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.light {
+  background-color: #fafafa;
+}
+.light header {
+  background: linear-gradient(
+    90deg,
+    #355c7d -0.02%,
+    #6c5b7b 47.04%,
+    #c06c84 87.8%
+  );
+}
+.light h2 {
+  color: #fff1f1;
+}
+.light figcaption {
+  color: #1d1d1f;
+}
+.light p {
+  color: #1d1d1f;
+}
+
+.light li a {
+  color: #1d1d1f;
+}
+.light li a:hover {
+  color: #c06c84;
+}
+.light .btn-mode {
+  background: linear-gradient(
+    180deg,
+    rgba(192, 108, 132, 0.2) 0%,
+    rgba(108, 91, 123, 0.614583) 42.19%,
+    #355c7d 100%
+  );
+}
+.light .btn-mode:hover {
+  background-color: #000;
+}
+.light .separador {
+  border: 1px solid #6c5b7b;
 }
