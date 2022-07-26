@@ -4,16 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <title>Andressa - Developer</title>
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/2.3.0/css/reset.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -24,10 +20,7 @@
       </header>
       <section>
         <figure>
-          <img
-            src="https://api.thecatapi.com/api/images/get?format=src&type=png"
-            alt=""
-          />
+          <img src="./img/andressa.jpg" alt="" />
           <figcaption>Andressa L. Machado</figcaption>
           <p>Desenvolvedora Front End</p>
         </figure>
@@ -36,28 +29,43 @@
         <ul>
           <li>
             <img src="./img/linkedin-icon.png" alt="" />
-            <a href="https://www.linkedin.com/in/andressa-machado-3979b579/">
+            <a
+              href="https://www.linkedin.com/in/andressa-machado-3979b579/"
+              target="_blank"
+            >
               LinkedIn
             </a>
           </li>
           <li>
             <img src="./img/github-icon.png" alt="" />
-            <a href="https://github.com/andressalmachado"> GitHub </a>
+            <a href="https://github.com/andressalmachado" target="_blank">
+              GitHub
+            </a>
           </li>
           <li>
             <img src="./img/codepen-icon.png" alt="" />
-            <a href="https://codepen.io/andressalmachado"> CodePen </a>
+            <a href="https://codepen.io/andressalmachado" target="_blank">
+              CodePen
+            </a>
           </li>
           <li>
-            <img src="./img/whatsapp-icon.png" alt="" />
-            <a href="https://codepen.io/andressalmachado"> Mensagem </a>
+            <img src="./img/whatsapp-icon.png" alt="" target="_blank" />
+            <a href="#"> Mensagem </a>
           </li>
           <li>
-            <img src="./img/mais-icon.png" alt="" />
-            <a href="https://codepen.io/andressalmachado"> Saiba Mais! </a>
+            <img src="./img/mais-icon.png" alt="" target="_blank" />
+            <a href="#"> Saiba Mais! </a>
           </li>
         </ul>
       </section>
     </main>
+    <button id="btn-mode" class="btn-mode" onclick="alterar()">
+      <img id="image" src="/img/light-mode.png" alt="" class="mode-icon" />
+    </button>
+    <footer>
+      <hr class="separador" />
+      <p class="copyright">Copyright © 2022 Todos os direitos reservados</p>
+    </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
