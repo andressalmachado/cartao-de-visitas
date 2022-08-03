@@ -1,0 +1,39 @@
+ul {
+  margin: 0 auto;
+  width: 185px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+}
+li {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  max-width: 430px;
+
+  & ::before {
+    content: "|";
+    color: $cor-before;
+  }
+
+  img {
+    margin: 0 10px;
+  }
+  a {
+    text-decoration: none;
+    @include texto(20px, 400);
+    color: $secundaria;
+    letter-spacing: 0.05em;
+
+    &:hover {
+      color: $hover-linha;
+      transition: 0.5s;
+      letter-spacing: 1.5px;
+    }
+  }
+
+  & a:hover::before {
+    font-weight: bolder;
+    color: $hover-before;
+  }
+}

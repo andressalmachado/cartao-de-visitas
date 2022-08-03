@@ -1,0 +1,32 @@
+.light {
+  background-color: $secundaria;
+  header {
+    background: linear-gradient(
+      180deg,
+      $gradiente-light1 10%,
+      $gradiente-light2 50%
+    );
+  }
+  h2 {
+    color: $secundaria;
+  }
+  figcaption {
+    color: $detalhes-light;
+  }
+  p {
+    color: $detalhes-light;
+  }
+  li a {
+    color: $detalhes-light;
+  }
+  .btn-mode {
+    background: $detalhes-light2;
+    color: $secundaria;
+  }
+  .btn-mode:hover {
+    background-color: $primaria;
+  }
+  .separador {
+    border: 1px solid $detalhes-light2;
+  }
+}

@@ -1,0 +1,12 @@
+footer {
+  height: 40px;
+
+  hr {
+    border: 1px solid $detalhes-default;
+  }
+  .copyright {
+    margin-top: 10px;
+    text-align: center;
+    color: $secundaria;
+  }
+}
