@@ -1,0 +1,42 @@
+main {
+  text-align: center;
+  height: 93vh;
+}
+header {
+  background: linear-gradient(
+    180deg,
+    $gradiente-default1 0%,
+    $gradiente-default2 100%
+  );
+  text-align: center;
+  padding: 15px;
+}
+h2 {
+  font-family: "Chivo", sans-serif;
+  @include texto(20px, 400);
+  color: $h2-default;
+}
+
+section {
+  figure {
+    padding: 15px;
+
+    img {
+      border-radius: 50%;
+      width: 130px;
+      height: 130px;
+    }
+
+    figcaption {
+      @include texto(24px, 600);
+      margin: 10px 0;
+      color: $detalhes-default;
+    }
+
+    p {
+      color: $secundaria;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+    }
+  }
+}

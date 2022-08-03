@@ -1,0 +1,27 @@
+$primaria: #363636;
+$secundaria: #fafafa;
+$detalhes-default: #c18787;
+$detalhes-light: #1d1d1f;
+$detalhes-light2: #564961;
+$gradiente-default1: #eeb4b4;
+$gradiente-default2: #8f6464;
+$h2-default: #362525;
+$gradiente-light1: #355c7d;
+$gradiente-light2: #6c5b7b;
+$cor-before: #966a6a;
+$hover-linha: #d9988d;
+$hover-before: #c27474;
+
+@mixin texto($tamanho, $peso) {
+  font-size: $tamanho;
+  font-weight: $peso;
+}
+
+@import "reset";
+@import "header";
+@import "principal";
+@import "change-mode";
+@import "footer";
+@import "light-mode";
+
+@import url("https://fonts.googleapis.com/css2?family=Chivo&family=Source+Sans+Pro:wght@300;400;600&display=swap");

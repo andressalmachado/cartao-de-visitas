@@ -1,48 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo&family=Source+Sans+Pro:wght@300;400;600&display=swap");
-
 * {
   font-family: "Source Sans Pro", sans-serif;
 }
+
 body {
   background-color: #363636;
   height: 100vh;
 }
+
 main {
   text-align: center;
   height: 93vh;
 }
+
 header {
   background: linear-gradient(180deg, #eeb4b4 0%, #8f6464 100%);
   text-align: center;
-  padding: 23px;
-}
-h2 {
-  font-size: 20px;
-  font-family: "Chivo", sans-serif;
-  font-weight: 400;
-  line-height: 25px;
-  color: #362525;
-  font-weight: 400;
+  padding: 15px;
 }
 
+h2 {
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #362525;
+}
+
+section figure {
+  padding: 15px;
+}
 section figure img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 }
-
-figure {
-  padding: 30px;
-}
-
-figcaption {
+section figure figcaption {
+  font-size: 24px;
   font-weight: 600;
-  font-size: 28px;
   margin: 10px 0;
   color: #c18787;
 }
-
-p {
+section figure p {
   color: #fafafa;
   font-weight: 400;
   letter-spacing: 0.05em;
@@ -55,47 +53,46 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
 li {
   display: flex;
   align-items: center;
-  padding: 15px 0;
+  padding: 12px 0;
   max-width: 430px;
 }
 li ::before {
   content: "|";
   color: #966a6a;
 }
-
-li a:hover {
-  color: #d9988d;
-  transition: 0.5s;
-  letter-spacing: 1.5px;
-}
-
-li a:hover::before {
-  font-weight: bolder;
-  color: #c27474;
-}
-
 li img {
   margin: 0 10px;
 }
 li a {
   text-decoration: none;
-  font-weight: 400;
   font-size: 20px;
+  font-weight: 400;
   color: #fafafa;
   letter-spacing: 0.05em;
 }
+li a:hover {
+  color: #d9988d;
+  transition: 0.5s;
+  letter-spacing: 1.5px;
+}
+li a:hover::before {
+  font-weight: bolder;
+  color: #c27474;
+}
+
 .btn-mode {
   position: fixed;
-  bottom: 80px;
-  right: 20px;
+  bottom: 8%;
+  right: 5%;
   cursor: pointer;
   outline: none;
-  height: 40px;
+  height: 30px;
   width: 90px;
-  background: rgba(193, 135, 135, 0.8);
+  background: #c18787;
   border: none;
   border-radius: 10px;
   padding: 0;
@@ -104,34 +101,27 @@ li a {
 .btn-mode:hover {
   background-color: #fafafa;
 }
-.mode-icon {
-  margin-top: 5px;
-}
 
 footer {
   height: 40px;
 }
-hr {
-  border: 1px solid rgba(193, 135, 135, 0.7);
+footer hr {
+  border: 1px solid #c18787;
 }
-.copyright {
-  margin-top: 15px;
+footer .copyright {
+  margin-top: 10px;
   text-align: center;
+  color: #fafafa;
 }
 
 .light {
   background-color: #fafafa;
 }
 .light header {
-  background: linear-gradient(
-    90deg,
-    #355c7d -0.02%,
-    #6c5b7b 47.04%,
-    #c06c84 87.8%
-  );
+  background: linear-gradient(180deg, #355c7d 10%, #6c5b7b 50%);
 }
 .light h2 {
-  color: #fff1f1;
+  color: #fafafa;
 }
 .light figcaption {
   color: #1d1d1f;
@@ -142,9 +132,6 @@ hr {
 .light li a {
   color: #1d1d1f;
 }
-.light li a:hover {
-  color: #c06c84;
-}
 .light .btn-mode {
   background: #564961;
   color: #fafafa;
@@ -153,5 +140,5 @@ hr {
   background-color: #363636;
 }
 .light .separador {
-  border: 1px solid #6c5b7b;
-}
+  border: 1px solid #564961;
+}/*# sourceMappingURL=style.css.map */
