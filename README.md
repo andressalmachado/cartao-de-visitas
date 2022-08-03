@@ -18,9 +18,12 @@ Prototipagem realizada no Figma com o propósito Mobile First.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- ``HTML5``
-- ``CSS3``
-- ``JavaScript``
+<div style="display: inline_block"><br>
+  <img align="center" alt="Andressa-HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img align="center" alt="Andressa-CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img align="center" alt="Andressa-Js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
+
 <br>
 
 
