@@ -21,13 +21,13 @@ header {
 
 h2 {
   font-family: "Chivo", sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   color: #362525;
 }
 
 section figure {
-  padding: 15px;
+  padding: 20px;
 }
 section figure img {
   border-radius: 50%;
@@ -57,7 +57,7 @@ ul {
 li {
   display: flex;
   align-items: center;
-  padding: 12px 0;
+  padding: 15px 0;
   max-width: 430px;
 }
 li ::before {
